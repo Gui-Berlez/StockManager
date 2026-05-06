@@ -20,6 +20,7 @@ public class Category {
     private String description;
 //---------------------------------------------------------------------------------------
 // Construtor vazio — o JPA exige isso para criar objetos
+
     public Category() {}
 
 //---------------------------------------------------------------------------------------
