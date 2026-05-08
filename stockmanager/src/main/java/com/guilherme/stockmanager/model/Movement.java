@@ -50,11 +50,10 @@ public class Movement {
                  // não é uma lógica de negócio — é uma instrução para o JPA sobre como persistir essa entidade. Por isso ele vive na própria entidade.
     private void prePersist(){
         this.date = LocalDateTime.now();
-    }
+    }// O @PrePersist se encaixa nessa segunda parte: é uma regra de persistência, não de negócio.
 
 //---------------------------------------------------------------------------------------
 // Getters and Setters
-
 
     public Long getId() {
         return id;
