@@ -5,5 +5,3 @@ public enum Roles {
     FUNCIONARIO
 
 }
-
-
