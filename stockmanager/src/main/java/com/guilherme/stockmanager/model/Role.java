@@ -1,6 +1,6 @@
 package com.guilherme.stockmanager.model;
 
-public enum Roles {
+public enum Role {
     ADIMN,
     FUNCIONARIO
 
